@@ -1,12 +1,16 @@
 # Analisis Exploratorio de Enfermedades Cardiovasculares con PySpark y Docker
+**Autor:** Josue Pedraza    
+**Herramientas:** Python, Docker, PySpark, Pandas, Jupyter Notebook  
 
 Este proyecto presenta un analisis exploratorio de datos sobre factores de estilo de vida relacionados con enfermedades cardiovasculares. El trabajo se realiza utilizando PySpark dentro de un entorno Docker que incluye Jupyter Lab.
+
+---
 
 - Estructura del proyecto
 
 El proyecto esta organizado en tres partes principales. La carpeta data contiene el archivo CVD_cleaned.csv que es el dataset utilizado. La carpeta notebooks contiene el archivo analisis_exploratorio.ipynb donde se desarrolla todo el analisis. En la raiz se encuentran los archivos docker-compose.yml y README.md.
  
-----
+```
 PARCIAL1-PYSPARK-JOSUEPEDRAZA
 │
 ├── data/
@@ -20,6 +24,8 @@ PARCIAL1-PYSPARK-JOSUEPEDRAZA
 │
 ├── docker-compose.yml
 ├── README.md
+
+```
 ----
 
 - Ejecucion del proyecto
@@ -30,20 +36,22 @@ Para ejecutar el proyecto es necesario tener instalado Docker Desktop.
 
 Primero, se debe clonar el repositorio en tu computador utilizando el siguiente comando:
 
+```bash
 git clone https://github.com/josuepedraza/parcial1-pyspark-josuepedraza.git
 
-despues ingresar a la carpeta del proyecto:
-
 cd parcial1-pyspark-josuepedraza
-
+```
 Una vez ubicado en la carpeta raiz del proyecto, se debe ejecutar el comando:
 
+```bash
 docker-compose up
+```
 
 Finalmente, se puede acceder a Jupyter desde el navegador en la siguiente direccion:
 
+```
 http://localhost:8888
-
+```
 
 - Explicacion del archivo docker-compose.yml
 
