@@ -6,7 +6,7 @@ Este proyecto presenta un analisis exploratorio de datos sobre factores de estil
 
 El proyecto esta organizado en tres partes principales. La carpeta data contiene el archivo CVD_cleaned.csv que es el dataset utilizado. La carpeta notebooks contiene el archivo analisis_exploratorio.ipynb donde se desarrolla todo el analisis. En la raiz se encuentran los archivos docker-compose.yml y README.md.
  
-
+----
 PARCIAL1-PYSPARK-JOSUEPEDRAZA
 │
 ├── data/
@@ -20,6 +20,7 @@ PARCIAL1-PYSPARK-JOSUEPEDRAZA
 │
 ├── docker-compose.yml
 ├── README.md
+----
 
 - Ejecucion del proyecto
 
