@@ -17,10 +17,7 @@ PARCIAL1-PYSPARK-JOSUEPEDRAZA
 │   └── CVD_cleaned.csv
 │
 ├── notebooks/
-│   ├── analisis_exploratorio.ipynb
-│   ├── .ipynb_checkpoints/
-│   │   └── analisis_exploratorio-checkpoint.ipynb
-│   └── spark-warehouse/
+│   └── analisis_exploratorio.ipynb
 │
 ├── docker-compose.yml
 ├── README.md
